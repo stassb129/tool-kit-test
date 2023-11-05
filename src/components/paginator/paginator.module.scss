@@ -1,0 +1,28 @@
+.paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+.button {
+  font-size: 35px;
+  width: 55px;
+  height: 55px;
+  margin: 0 2px;
+  color: #112a74;
+  border-radius: 5px;
+  border: 1px solid #112a74;
+  cursor: pointer;
+}
+
+.active {
+  color: #9c0e0e;
+}
+
+.totalPages {
+  font-size: 25px;
+  margin: 10px 0;
+  color: #112a74;
+}

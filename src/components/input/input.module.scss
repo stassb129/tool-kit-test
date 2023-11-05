@@ -1,0 +1,26 @@
+.input {
+  width: 40%;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: rgba(191, 191, 191, 0.44);
+  cursor: pointer;
+  transition: 0.2s background-color;
+
+  &::-webkit-input-placeholder {
+    color: #c1b9c1;
+  }
+
+  &:hover {
+    background-color: rgba(191, 191, 191, 0.6);
+  }
+
+  &:focus {
+    background-color: white;
+    cursor: text;
+    color: black;
+  }
+}
